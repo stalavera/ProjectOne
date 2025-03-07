@@ -117,15 +117,16 @@ font-size: 20px;
 
 
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0%;
     width: 100vw;
     text-align: center;
     background-color: rgb(244, 207, 213); 
     display: flex;
     justify-content: space-around;
-    
+  
     }
+    
     footer ul {
     list-style-type: none;
     padding: 10px;
