@@ -1,0 +1,138 @@
+/*  font-family: "Headland One", serif;  font-family: "Fjalla One", sans-serif;
+  font-family: "Alfa Slab One", serif;
+*/
+*{ 
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: "Fjalla One", sans-serif;
+}
+
+html {background-color:rgb(227, 232, 228); ;  
+}
+
+h1 {
+display: flex;
+justify-content: space-around;
+font-size: 50px;
+font-weight: 500;
+color: rgb(70, 61, 116);
+text-align: center;
+margin: 10px
+}
+
+.star{
+    text-align: center;
+    border: none;
+    width: 100px;
+    height: 80px;
+    }
+
+*{ 
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: "Fjalla One", sans-sersif;
+}
+
+.navbar ul{
+list-style-type: none;
+background-color: rgb(244, 207, 213);
+margin: 0;
+padding: 0;
+text-transform: uppercase;
+font-weight: 400;
+font-size: 20px;
+}
+
+.navbar a {
+text-decoration: none;
+color: rgb(70, 61, 116);
+padding: 10px;
+display: block;
+text-align: center;
+}
+
+.navbar a:hover{
+background-color:  rgb(205, 201, 195);
+}
+
+h2 {
+text-align: center ;
+color: rgb(70, 61, 116);
+font-size: 40px;
+margin: 10px;
+padding: 20px;
+}
+
+img {
+max-width: 300px;
+max-height: 300px;
+border: 10px solid whitesmoke;
+}
+
+.ig {
+align-items: center;
+border-radius: 0;
+margin: 8px;
+display: inline;
+}
+
+.li2{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+color: rgb(89, 80, 133);
+font-size: 25px;
+margin: 8px;
+padding: 8px;
+}
+
+.li2 ul {
+list-style-type: none;
+display: inline;
+text-align: center;
+}
+
+.li2 a{
+font-size: larger;
+text-decoration: none;
+color:rgb(70, 61, 116);
+}
+
+
+p{
+position: relative;
+background-color: rgb(244, 207, 213);
+border-style: dotted;
+width: 50%;
+left: 25%;
+right: 25%;
+padding: 20px;
+margin: 10px;
+border-radius: 5px;
+text-align: left;
+font-size: 20px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100vw;
+    text-align: center;
+    background-color: rgb(244, 207, 213); 
+    display: flex;
+    justify-content: space-around;
+    
+    }
+    footer ul {
+    list-style-type: none;
+    padding: 10px;
+    }
+    
+    footer a {
+     text-decoration: none;
+    color: rgb(70, 61, 116);
+    }
+
