@@ -106,7 +106,7 @@ text-align: center;
 background-color: rgb(244, 207, 213); 
 display: flex;
 justify-content: space-around;
-
+padding: 20px;
 }
 footer ul {
 list-style-type: none;
