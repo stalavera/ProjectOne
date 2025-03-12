@@ -124,12 +124,14 @@ footer {
     background-color: rgb(244, 207, 213); 
     display: flex;
     justify-content: space-around;
-  
+    padding: 20px;
+    top: 45px;
     }
     
     footer ul {
+    text-align: center;
     list-style-type: none;
-    padding: 10px;
+
     }
     
     footer a {
